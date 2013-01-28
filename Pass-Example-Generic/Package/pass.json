@@ -1,0 +1,60 @@
+{
+  "passTypeIdentifier" : "com.keefmoon.passbook-example",
+  "formatVersion" : 1,
+  "teamIdentifier" : "YAXJZJ267E",
+  "organizationName" : "Passbook Example Company",
+  "serialNumber" : "0000001",
+  "description" : "Staff Pass for Employee Number 001",
+  "associatedStoreIdentifiers" : [
+  	 284971959
+  ],
+  "locations" : [
+  	{"latitude" : 51.50506, "longitude" : -0.01960, "relevantText" : "Company Offices" }
+  ],
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(90, 90, 90)",
+  "labelColor" : "rgb(255, 255, 255)",
+  "generic" : {
+  	"headerFields" : [
+  		{
+  			"key" : "staffNumber",
+        	"label" : "Staff Number",
+        	"value" : "001"
+  		}
+  	],
+    "primaryFields" : [
+      {
+        "key" : "staffName",
+        "label" : "Name",
+        "value" : "Peter Brooke"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "telephoneExt",
+        "label" : "Extension",
+        "value" : "9779"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "expiryDate",
+        "dateStyle" : "PKDateStyleShort",
+        "label" : "Expiry Date",
+        "value" : "2013-12-31T23:59"
+      }
+    ],
+    "backFields" : [
+      {
+        "key" : "managersName",
+        "label" : "Manager's Name",
+        "value" : "Paul Bailey"
+      },
+      {
+        "key" : "managersExt",
+        "label" : "Manager's Extension",
+        "value" : "9673"
+      }
+    ]
+  }
+}

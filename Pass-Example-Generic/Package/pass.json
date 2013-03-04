@@ -14,6 +14,13 @@
   "foregroundColor" : "rgb(255, 255, 255)",
   "backgroundColor" : "rgb(90, 90, 90)",
   "labelColor" : "rgb(255, 255, 255)",
+  "logoText" : "Company Staff ID",
+  "barcode" : {
+  		"format" : "PKBarcodeFormatQR",
+  		"message" : "0000001",
+  		"messageEncoding" : "iso-8859-1",
+  		"altText" : "Staff ID 0000001"
+   },
   "generic" : {
   	"headerFields" : [
   		{
@@ -34,6 +41,11 @@
         "key" : "telephoneExt",
         "label" : "Extension",
         "value" : "9779"
+      },
+      {
+        "key" : "jobTitle",
+        "label" : "Job Title",
+        "value" : "Chief Pass Creator"
       }
     ],
     "auxiliaryFields" : [
@@ -41,7 +53,7 @@
         "key" : "expiryDate",
         "dateStyle" : "PKDateStyleShort",
         "label" : "Expiry Date",
-        "value" : "2013-12-31T23:59"
+        "value" : "2013-12-31T00:00-23:59"
       }
     ],
     "backFields" : [

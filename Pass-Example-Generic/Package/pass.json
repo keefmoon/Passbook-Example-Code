@@ -1,5 +1,5 @@
 {
-  "passTypeIdentifier" : "com.keefmoon.passbook-example",
+  "passTypeIdentifier" : "pass.keefmoon.example-generic",
   "formatVersion" : 1,
   "teamIdentifier" : "YAXJZJ267E",
   "organizationName" : "Passbook Example Company",

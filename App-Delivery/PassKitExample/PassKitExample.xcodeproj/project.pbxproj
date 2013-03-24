@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F8D2DA316FFA27E007A4595 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8D2DA216FFA27E007A4595 /* UIKit.framework */; };
+		2F8D2DA516FFA27E007A4595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8D2DA416FFA27E007A4595 /* Foundation.framework */; };
+		2F8D2DA716FFA27E007A4595 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8D2DA616FFA27E007A4595 /* CoreGraphics.framework */; };
+		2F8D2DAD16FFA27E007A4595 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D2DAB16FFA27E007A4595 /* InfoPlist.strings */; };
+		2F8D2DAF16FFA27E007A4595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2DAE16FFA27E007A4595 /* main.m */; };
+		2F8D2DB316FFA27E007A4595 /* PKEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2DB216FFA27E007A4595 /* PKEAppDelegate.m */; };
+		2F8D2DB516FFA27E007A4595 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D2DB416FFA27E007A4595 /* Default.png */; };
+		2F8D2DB716FFA27E007A4595 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D2DB616FFA27E007A4595 /* Default@2x.png */; };
+		2F8D2DB916FFA27E007A4595 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D2DB816FFA27E007A4595 /* Default-568h@2x.png */; };
+		2F8D2DBC16FFA27E007A4595 /* PKEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2DBB16FFA27E007A4595 /* PKEViewController.m */; };
+		2F8D2DBF16FFA27E007A4595 /* PKEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D2DBD16FFA27E007A4595 /* PKEViewController.xib */; };
+		2F8D2DC616FFA4ED007A4595 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8D2DC516FFA4ED007A4595 /* PassKit.framework */; };
+		2F8D2DC916FFA536007A4595 /* Pass-Example-Generic.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D2DC816FFA536007A4595 /* Pass-Example-Generic.pkpass */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F8D2D9E16FFA27E007A4595 /* PassKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8D2DA216FFA27E007A4595 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F8D2DA416FFA27E007A4595 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F8D2DA616FFA27E007A4595 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F8D2DAA16FFA27E007A4595 /* PassKitExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassKitExample-Info.plist"; sourceTree = "<group>"; };
+		2F8D2DAC16FFA27E007A4595 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F8D2DAE16FFA27E007A4595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F8D2DB016FFA27E007A4595 /* PassKitExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PassKitExample-Prefix.pch"; sourceTree = "<group>"; };
+		2F8D2DB116FFA27E007A4595 /* PKEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKEAppDelegate.h; sourceTree = "<group>"; };
+		2F8D2DB216FFA27E007A4595 /* PKEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKEAppDelegate.m; sourceTree = "<group>"; };
+		2F8D2DB416FFA27E007A4595 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2F8D2DB616FFA27E007A4595 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2F8D2DB816FFA27E007A4595 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2F8D2DBA16FFA27E007A4595 /* PKEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKEViewController.h; sourceTree = "<group>"; };
+		2F8D2DBB16FFA27E007A4595 /* PKEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKEViewController.m; sourceTree = "<group>"; };
+		2F8D2DBE16FFA27E007A4595 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PKEViewController.xib; sourceTree = "<group>"; };
+		2F8D2DC516FFA4ED007A4595 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		2F8D2DC816FFA536007A4595 /* Pass-Example-Generic.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pass-Example-Generic.pkpass"; path = "../../../Pass-Example-Generic/Pass-Example-Generic.pkpass"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F8D2D9B16FFA27E007A4595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8D2DC616FFA4ED007A4595 /* PassKit.framework in Frameworks */,
+				2F8D2DA316FFA27E007A4595 /* UIKit.framework in Frameworks */,
+				2F8D2DA516FFA27E007A4595 /* Foundation.framework in Frameworks */,
+				2F8D2DA716FFA27E007A4595 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F8D2D9316FFA27E007A4595 = {
+			isa = PBXGroup;
+			children = (
+				2F8D2DA816FFA27E007A4595 /* PassKitExample */,
+				2F8D2DA116FFA27E007A4595 /* Frameworks */,
+				2F8D2D9F16FFA27E007A4595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F8D2D9F16FFA27E007A4595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D2D9E16FFA27E007A4595 /* PassKitExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F8D2DA116FFA27E007A4595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D2DC516FFA4ED007A4595 /* PassKit.framework */,
+				2F8D2DA216FFA27E007A4595 /* UIKit.framework */,
+				2F8D2DA416FFA27E007A4595 /* Foundation.framework */,
+				2F8D2DA616FFA27E007A4595 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F8D2DA816FFA27E007A4595 /* PassKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D2DC716FFA50B007A4595 /* PKPass Files */,
+				2F8D2DB116FFA27E007A4595 /* PKEAppDelegate.h */,
+				2F8D2DB216FFA27E007A4595 /* PKEAppDelegate.m */,
+				2F8D2DBA16FFA27E007A4595 /* PKEViewController.h */,
+				2F8D2DBB16FFA27E007A4595 /* PKEViewController.m */,
+				2F8D2DBD16FFA27E007A4595 /* PKEViewController.xib */,
+				2F8D2DA916FFA27E007A4595 /* Supporting Files */,
+			);
+			path = PassKitExample;
+			sourceTree = "<group>";
+		};
+		2F8D2DA916FFA27E007A4595 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D2DAA16FFA27E007A4595 /* PassKitExample-Info.plist */,
+				2F8D2DAB16FFA27E007A4595 /* InfoPlist.strings */,
+				2F8D2DAE16FFA27E007A4595 /* main.m */,
+				2F8D2DB016FFA27E007A4595 /* PassKitExample-Prefix.pch */,
+				2F8D2DB416FFA27E007A4595 /* Default.png */,
+				2F8D2DB616FFA27E007A4595 /* Default@2x.png */,
+				2F8D2DB816FFA27E007A4595 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F8D2DC716FFA50B007A4595 /* PKPass Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D2DC816FFA536007A4595 /* Pass-Example-Generic.pkpass */,
+			);
+			name = "PKPass Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F8D2D9D16FFA27E007A4595 /* PassKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8D2DC216FFA27E007A4595 /* Build configuration list for PBXNativeTarget "PassKitExample" */;
+			buildPhases = (
+				2F8D2D9A16FFA27E007A4595 /* Sources */,
+				2F8D2D9B16FFA27E007A4595 /* Frameworks */,
+				2F8D2D9C16FFA27E007A4595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassKitExample;
+			productName = PassKitExample;
+			productReference = 2F8D2D9E16FFA27E007A4595 /* PassKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F8D2D9516FFA27E007A4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PKE;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Passbook Example Company";
+			};
+			buildConfigurationList = 2F8D2D9816FFA27E007A4595 /* Build configuration list for PBXProject "PassKitExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F8D2D9316FFA27E007A4595;
+			productRefGroup = 2F8D2D9F16FFA27E007A4595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F8D2D9D16FFA27E007A4595 /* PassKitExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F8D2D9C16FFA27E007A4595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8D2DAD16FFA27E007A4595 /* InfoPlist.strings in Resources */,
+				2F8D2DB516FFA27E007A4595 /* Default.png in Resources */,
+				2F8D2DB716FFA27E007A4595 /* Default@2x.png in Resources */,
+				2F8D2DB916FFA27E007A4595 /* Default-568h@2x.png in Resources */,
+				2F8D2DBF16FFA27E007A4595 /* PKEViewController.xib in Resources */,
+				2F8D2DC916FFA536007A4595 /* Pass-Example-Generic.pkpass in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F8D2D9A16FFA27E007A4595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8D2DAF16FFA27E007A4595 /* main.m in Sources */,
+				2F8D2DB316FFA27E007A4595 /* PKEAppDelegate.m in Sources */,
+				2F8D2DBC16FFA27E007A4595 /* PKEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F8D2DAB16FFA27E007A4595 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8D2DAC16FFA27E007A4595 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F8D2DBD16FFA27E007A4595 /* PKEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F8D2DBE16FFA27E007A4595 /* en */,
+			);
+			name = PKEViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F8D2DC016FFA27E007A4595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F8D2DC116FFA27E007A4595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F8D2DC316FFA27E007A4595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassKitExample/PassKitExample-Prefix.pch";
+				INFOPLIST_FILE = "PassKitExample/PassKitExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F8D2DC416FFA27E007A4595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassKitExample/PassKitExample-Prefix.pch";
+				INFOPLIST_FILE = "PassKitExample/PassKitExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F8D2D9816FFA27E007A4595 /* Build configuration list for PBXProject "PassKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8D2DC016FFA27E007A4595 /* Debug */,
+				2F8D2DC116FFA27E007A4595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8D2DC216FFA27E007A4595 /* Build configuration list for PBXNativeTarget "PassKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8D2DC316FFA27E007A4595 /* Debug */,
+				2F8D2DC416FFA27E007A4595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F8D2D9516FFA27E007A4595 /* Project object */;
+}
